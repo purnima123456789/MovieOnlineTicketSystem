@@ -25,7 +25,7 @@ public class ScreenController {
 	@Autowired
 	private IScreenService screenService;
 
-	/*add new screen*/
+	/**add new screen***/
 	@PostMapping("/add")
 	public ResponseEntity<Screen> addScreen(@RequestBody RequestScreenDto screenDto) {
 		Screen screen = convertFromDtoToScreen(screenDto);
