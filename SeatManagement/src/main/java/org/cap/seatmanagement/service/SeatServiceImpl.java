@@ -25,7 +25,7 @@ public class SeatServiceImpl implements ISeatService {
 		this.seatDao = seatDao;
 	}
 
-	/*add new seat*/
+	/***add new seat***/
 	@Override
 	public Seat saveSeat(Seat seat) {
 		seat = seatDao.save(seat);
