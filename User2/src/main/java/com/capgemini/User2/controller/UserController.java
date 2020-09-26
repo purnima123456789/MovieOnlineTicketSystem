@@ -48,7 +48,7 @@ public class UserController {
 		
 	}
 
-	//Login to the online movie ticket System so that user can booked the ticket
+	// Login to the online movie ticket System so that user can booked the ticket
 	@PostMapping("/login")
 	public String login(@RequestBody User auth)
 	{
