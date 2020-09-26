@@ -31,11 +31,11 @@ public class TheaterController {
 	@Autowired
 	private ITheaterService service;
 
-	/**
+	/***
 	 * Adding theater
 	 * @param thaeterDto
 	 * @return
-	 */
+	 **/
 	@PostMapping("/add")
 	public ResponseEntity<TheaterDetailsDto> addTheater(@RequestBody CreateTheaterRequest theaterDto) {
 		Theater theater = convert(theaterDto);
