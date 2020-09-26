@@ -36,8 +36,7 @@ public class TheatreController {
 		return theatreService.findAll();
 
 	}
-
-	//Retrieving the theater details by theatreCity.
+      //User Retrieving the theater details by theatreCity.
 	@GetMapping("/selectByCity/{theatreCity}")
 	public List<Theatre> selectByCity(@PathVariable(value="theatreCity") String theatreCity){
 		return theatreService.selectByCityName(theatreCity);
