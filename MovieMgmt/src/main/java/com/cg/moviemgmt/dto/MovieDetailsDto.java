@@ -1,4 +1,4 @@
-package com.cg.moviemgmt.dto;
+package com.capg.MovieMgmt.dto;
 
 import java.time.LocalDate;
 
