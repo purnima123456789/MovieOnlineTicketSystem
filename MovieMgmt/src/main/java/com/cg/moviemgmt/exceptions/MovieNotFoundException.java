@@ -1,4 +1,4 @@
-package com.cg.moviemgmt.exceptions;
+package com.capg.MovieMgmt.exceptions;
 
 public class MovieNotFoundException extends RuntimeException {
 
