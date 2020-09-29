@@ -1,4 +1,4 @@
-package com.cg.moviemgmt.service;
+package com.capg.MovieMgmt.service;
 
 import java.util.List;
 
@@ -7,8 +7,9 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.cg.moviemgmt.dao.IShowDao;
-import com.cg.moviemgmt.entities.Show;
+
+import com.capg.MovieMgmt.dao.IShowDao;
+import com.capg.MovieMgmt.entities.Show;
 
 @Service
 public class ShowServiceImpl implements IShowService {
