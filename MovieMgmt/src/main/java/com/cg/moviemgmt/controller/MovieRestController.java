@@ -1,22 +1,18 @@
-package com.cg.moviemgmt.controller;
+package com.capg.MovieMgmt.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import com.cg.moviemgmt.dto.MovieDetailsDto;
-import com.cg.moviemgmt.dto.MovieRequestDto;
-import com.cg.moviemgmt.entities.Movie;
-import com.cg.moviemgmt.service.IMovieService;
+import com.capg.MovieMgmt.dto.MovieDetailsDto;
+import com.capg.MovieMgmt.dto.MovieRequestDto;
+import com.capg.MovieMgmt.entities.Movie;
+import com.capg.MovieMgmt.service.IMovieService;
+
 import java.util.*;
+
 
 @RestController
 @RequestMapping("/movies")
