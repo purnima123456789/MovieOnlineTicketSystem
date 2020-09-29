@@ -1,9 +1,9 @@
-package com.cg.moviemgmt.dto;
+package com.capg.MovieMgmt.dto;
 
 import java.sql.Time;
 import java.util.* ;
 
-import com.cg.moviemgmt.entities.Movie;
+import com.capg.MovieMgmt.entities.Movie;
 public class ShowDetailsDto {
 
 	private int showId;
