@@ -1,4 +1,4 @@
-package com.cg.moviemgmt.service;
+package com.capg.MovieMgmt.service;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.cg.moviemgmt.dao.IMovieDao;
-import com.cg.moviemgmt.entities.Movie;
-import com.cg.moviemgmt.exceptions.MovieNotFoundException;
+import com.capg.MovieMgmt.dao.IMovieDao;
+import com.capg.MovieMgmt.entities.Movie;
+import com.capg.MovieMgmt.exceptions.MovieNotFoundException;
 
 @Service
 @Transactional
