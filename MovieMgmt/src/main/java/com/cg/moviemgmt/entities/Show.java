@@ -1,4 +1,4 @@
-package com.cg.moviemgmt.entities;
+package com.capg.MovieMgmt.entities;
 
 import java.sql.Time;
 
@@ -6,10 +6,11 @@ import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 import java.util.*;
-import org.springframework.data.annotation.Id;
 
 @Entity
 public class Show {
