@@ -1,8 +1,8 @@
-package com.cg.moviemgmt.service;
+package com.capg.MovieMgmt.service;
 
 import java.util.List;
 
-import com.cg.moviemgmt.entities.Movie;
+import com.capg.MovieMgmt.entities.Movie;
 
 public interface IMovieService {
 
