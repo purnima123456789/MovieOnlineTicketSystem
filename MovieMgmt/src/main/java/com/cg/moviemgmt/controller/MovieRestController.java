@@ -51,7 +51,7 @@ public class MovieRestController {
 		return null;
 	}
 
-	@GetMapping
+	@GetMapping("/all")
 	ResponseEntity<List<Movie>> fetchAll(){
 		List<Movie> movieList = movieService.fetchAll();
 		ResponseEntity<List<Movie>> response = new ResponseEntity<List<Movie>>(movieList, HttpStatus.OK);
