@@ -1,8 +1,8 @@
-package com.cg.moviemgmt.dao;
+package com.capg.MovieMgmt.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cg.moviemgmt.entities.Movie;
+import com.capg.MovieMgmt.entities.Movie;
 
 public interface IMovieDao extends JpaRepository<Movie, Integer> {
 	
