@@ -1,4 +1,4 @@
-package com.cg.moviemgmt;
+package com.capg.MovieMgmt;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
