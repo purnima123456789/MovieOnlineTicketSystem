@@ -1,7 +1,8 @@
-package com.cg.moviemgmt.service;
+package com.capg.MovieMgmt.service;
 
 import java.util.List;
-import com.cg.moviemgmt.entities.Show;
+
+import com.capg.MovieMgmt.entities.Show;
 
 public interface IShowService {
 
